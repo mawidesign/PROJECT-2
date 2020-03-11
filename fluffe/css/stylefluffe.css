@@ -4,7 +4,11 @@
 body {
   margin: 0;
   padding: 0;
-  background: #FEEDED;
+  background-image: url("linebg.png");
+  background-repeat: no-repeat;
+background-size: 400%;
+background-color: #FEEDED;
+background-position-y: initial;
 
   }
 
@@ -27,6 +31,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+  text-align: center;
 }
 
 h2 {
@@ -64,6 +69,7 @@ a:hover, a:focus {
 }
 
 nav ul li a {
+
   padding: 2px 0 0 0;
   position: relative;
   display: block;
@@ -80,12 +86,17 @@ nav ul li a {
   transition: all 0.5s ease-in-out 0s;
 }
 
+li{
+  list-style: none;
+}
+
 p {
   margin: 25px 0;
   padding: 0;
   font-size: 15px;
   color: #999999;
   line-height: 28px;
+  text-align: center;
 }
 
 ::-moz-selection {
@@ -187,6 +198,7 @@ p {
 
   .logo img {
     width: 80px;
+        padding-left: 30px;
 
   }
 
@@ -256,15 +268,7 @@ p {
   transform: rotate(90deg) translateY(-100vh);
   transform-origin: top left;
 }
-.one {
-  background: #FEEDED;
-}
-.two {
-  background: #FEEDED;
-}
-.three {
-  background: #FEEDED;
-}
+
 
 
 .outer-wrapper{
@@ -284,6 +288,26 @@ p {
 
 }
 
+.group1{
+      padding-top: 90px;
+}
+
+.group2{
+  position: relative;
+margin-left: 810px;
+  margin-top: -230px;
+  z-index: 1;
+
+}
+
+.group3{
+position: relative;
+    margin-left: -480px;
+    x: ;
+    margin-top: -330px;
+    z-index: 1;
+  }
+
 .img1b{
   width: 28%;
   position: relative;
@@ -300,9 +324,9 @@ z-index: 1;
 
 .img1d{
   width: 30%;
-    margin: 0px 0px 80px -200px;
-    position: relative;
-    z-index: 2;
+  margin: 0px 0px 80px -200px;
+  position: relative;
+  z-index: 2;
     -webkit-animation: action 1s infinite  alternate;
        animation: action 1s infinite  alternate;
 }
@@ -337,19 +361,48 @@ margin-left: 0px;
 
 .img3a{
   width: 44%;
-  position: relative;
-  margin-left: 99px;
-  margin-top: 60px;
-  z-index: 1;
+      position: relative;
+      margin-left: -121px;
+      margin-top: 100px;
+      z-index: 1;
+      -webkit-animation: action 1s infinite  alternate;
+         animation: action 1s infinite  alternate;
 }
 
 
 .img3b{
-  margin: -360px 0px 0px 710px;
+margin: -770px 0px 0px 710px;
   width: 42%;
   z-index: 1;
+  -webkit-animation: action 1s infinite  alternate;
+     animation: action 1s infinite  alternate;
 }
 
+.img3c{
+  width: 54%;
+  position: relative;
+  margin-left: -329px;
+  margin-top: -140px;
+  z-index: 1;
+
+}
+
+.img2b{
+  width: 44%;
+position: relative;
+margin-left: 739px;
+margin-top: -460px;
+z-index: 1;
+-webkit-animation: action 1s infinite  alternate;
+   animation: action 1s infinite  alternate;
+  }
+
+.img2a{  width: 37%;
+    position: relative;
+    margin-top: -60px;
+    z-index: 1;
+    margin-left: 160px;
+    }
 
 @-webkit-keyframes action {
         0% { transform: translateY(0); }
@@ -491,8 +544,8 @@ margin-left: 0px;
 #portfolio .section-heading {
 	padding-top: 200px;
 	padding-bottom: 200px;
-	background-color: #33c1cf;
-	height: 732px;
+	background-color: #CBC1E1;
+	    height: 580px;
 	margin-left: -100vh;
 	padding-left: 100vh;
 }
@@ -520,4 +573,32 @@ margin-left: 0px;
 #portfolio .section-heading p {
 	color: #fff;
 	padding-right: 70px;
+}
+
+.button-wrapper {
+  text-align: center;
+  position: relative;
+  z-index: 3;
+
+}
+
+.button {
+  border: none;
+      display: inline-block;
+      font-size: 1.4em;
+      padding: 0.5em 0.8em;
+      width: auto;
+      cursor: pointer;
+}
+
+.cta-button {
+  background-color: white;
+  color: #E672A3;
+
+}
+
+.cta-button:hover {
+  background-color: #E672A3;
+  color: #fff;
+
 }
