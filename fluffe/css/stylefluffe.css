@@ -203,6 +203,7 @@ p {
   }
 
 
+
   .nav-menu {
     float: right;
     line-height: 32px;
@@ -531,9 +532,7 @@ z-index: 1;
   text-transform: uppercase;
 }
 
-.credits {
-  font-size: 13px;
-}
+
 
 
 #portoflio .page-section {
