@@ -1,16 +1,10 @@
-/*
 
-Template 2087 Kalay
-
-http://www.tooplate.com/view/2087-kalay
-
-*/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400');
 
 body {
     background: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', helvetica;
     font-style: normal;
     font-weight: normal;
     overflow-x: hidden;
@@ -81,9 +75,9 @@ p {
 -----------------------------------------*/
 
 .section-btn {
-  background: #000000;
-  border: none;
-  color: #f0f0f0;
+  color: #852FCE;
+  border: 2px solid #852FCE;
+
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 1.5px;

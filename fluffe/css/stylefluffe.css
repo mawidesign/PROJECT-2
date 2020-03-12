@@ -294,8 +294,8 @@ p {
 
 .group2{
   position: relative;
-margin-left: 810px;
-  margin-top: -230px;
+  margin-left: 810px;
+  margin-top: -250px;
   z-index: 1;
 
 }
@@ -303,9 +303,8 @@ margin-left: 810px;
 .group3{
 position: relative;
     margin-left: -480px;
-    x: ;
-    margin-top: -330px;
-    z-index: 1;
+    margin-top: -372px;
+        z-index: 1;
   }
 
 .img1b{
@@ -594,6 +593,14 @@ z-index: 1;
 .cta-button {
   color: #852FCE;
     border: 2px solid #852FCE;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 18px 32px;
+    margin-top: 0px;
+    text-transform: uppercase;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
 
 }
 
